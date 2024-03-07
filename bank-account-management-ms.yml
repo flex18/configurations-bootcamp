@@ -1,0 +1,6 @@
+# config for mongodb
+mongo:
+  db: ${MONGO_DB:bankAccountMDB}
+  url: ${MONGO_URL:localhost:27017}
+  user: ${MONGO_USER:data}
+  passwd: ${MONGO_PASSWD:data2024}
