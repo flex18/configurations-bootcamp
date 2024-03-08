@@ -1,0 +1,9 @@
+# url to bank account management
+bam:
+  url: ${BAM_LOCATION_URL:http://localhost:8084/bank-account}
+# config for mongodb
+mongo:
+  db: ${MONGO_DB:customerDB}
+  url: ${MONGO_URL:localhost:27017}
+  user: ${MONGO_USER:data}
+  passwd: ${MONGO_PASSWD:data2024}
